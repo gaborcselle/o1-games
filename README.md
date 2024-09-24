@@ -15,30 +15,13 @@ You can try out the games at [o1-games.gaborcselle.com](https://o1-games.gaborcs
 ## Games Included
 
 1. **Space Encoders** - Defend against waves of alien invaders in this modern twist on Space Invaders.
-2. **CodeTris** - Stack and clear blocks in this reimagined Tetris.
-3. **AI Chessmaster** - Challenge the AI or a friend in this classic game of strategy.
-4. **Code Doom** - Navigate through levels filled with challenges in this browser-based FPS.
-5. **CodeBall** - Experience the thrill of pinball with modern graphics and physics.
-6. **AI-Man** - Navigate the maze, collect items, and avoid ghosts in this classic remake.
-7. **CodeSnake** - Grow your snake and test your reflexes in this timeless game.
-8. **CodeBreak** - Break all the bricks with your paddle and ball in this arcade favorite.
-9. **CodeSweeper** - Use logic to clear the minefield without detonating any mines.
-10. **AI Pong** - Challenge the computer or a friend in this modern take on Pong.
-11. **AIsteroids** - Pilot your spaceship and destroy asteroids in space.
-12. **AI-laga** - Defend against alien swarms in this space shooter.
-13. **AI Kong** - Climb and dodge obstacles to save the day.
-14. **Code Hopper** - Help the frog cross the road safely in this updated classic.
-15. **Super AI Bros.** - Embark on an adventure in this iconic platformer.
-16. **Code Fighter** - Engage in epic battles in this fighting game.
-17. **Code Bomber** - Strategically place bombs to defeat your opponents.
-18. **AI Hunt** - Test your aim and reflexes in this shooting gallery game.
-19. **Code Lemmings** - Guide the lemmings to safety through challenging puzzles.
-20. **SimCode** - Build and manage your own virtual city.
-21. **Code of Persia** - Navigate treacherous environments in this action platformer.
-22. **Code Portal** - Solve puzzles using portals in this mind-bending game.
-23. **AI Birds** - Launch birds to destroy structures and defeat enemies.
-24. **Code Crush** - Match candies to clear levels in this sweet puzzle game.
-25. **Among Code** - Find the impostor in this social deduction game.
+2. **AI-Man** - Navigate the maze, collect items, and avoid ghosts in this classic remake.
+3. **CodeBreak** - Break all the bricks with your paddle and ball in this arcade favorite.
+4. **Aisteroids** - Pilot your spaceship and destroy asteroids in space.
+5. **Code Fighter** - Engage in epic battles in this fighting game.
+6. **Code Lemmings** - Guide the lemmings to safety through challenging puzzles.
+7. **Codey Crush** - Match candies to clear levels in this sweet puzzle game.
+8. **Among Code** - Find the impostor in this social deduction game.
 
 ## Installation
 

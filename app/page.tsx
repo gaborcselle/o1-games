@@ -6,6 +6,7 @@ const games = [
   { slug: 'ai-man', name: 'AI Man' },
   { slug: 'ai-steroids', name: 'Aisteroids' },
   { slug: 'among-code', name: 'Among Code' },
+  { slug: 'code-fighter', name: 'Code Fighter' },
   { slug: 'code-break', name: 'Code Break' },
   { slug: 'code-lemmings', name: 'Code Lemmings' },
 ];
