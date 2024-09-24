@@ -90,7 +90,7 @@ const Page = () => {
   const [ghostPositions, setGhostPositions] = useState<Position[]>(ghostInitialPositions);
 
   const handleKeyDown = (event: KeyboardEvent) => {
-    let newPosition = { ...playerPosition };
+    const newPosition = { ...playerPosition };
 
     switch (event.key) {
       case "ArrowUp":

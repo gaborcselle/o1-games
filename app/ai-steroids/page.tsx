@@ -12,8 +12,8 @@ const Aisteroids = () => {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const [keys, setKeys] = useState<Record<string, boolean>>({});
   const [ship, setShip] = useState({
-    x: window.innerWidth / 2,
-    y: window.innerHeight / 2,
+    x: 0,
+    y: 0,
     angle: 0,
     speed: 0,
     velocityX: 0,
@@ -21,16 +21,30 @@ const Aisteroids = () => {
   });
   const [asteroids, setAsteroids] = useState<Array<any>>([]);
   const [bullets, setBullets] = useState<Array<Bullet>>([]);
+  const [windowSize, setWindowSize] = useState({ width: 0, height: 0 });
+
+  useEffect(() => {
+    setWindowSize({
+      width: window.innerWidth,
+      height: window.innerHeight,
+    });
+    setShip(prevShip => ({
+      ...prevShip,
+      x: window.innerWidth / 2,
+      y: window.innerHeight / 2,
+    }));
+    createAsteroids(5);
+  }, []);
 
   const createAsteroids = (num: number) => {
-    let tempAsteroids = [];
+    const tempAsteroids = [];
     for (let i = 0; i < num; i++) {
       tempAsteroids.push({
-        x: Math.random() * window.innerWidth,
-        y: Math.random() * window.innerHeight,
+        x: Math.random() * windowSize.width,
+        y: Math.random() * windowSize.height,
         radius: Math.random() * 30 + 20,
         angle: Math.random() * 360,
-        speed: Math.random() * 0.3 + 0.2, // Reduced speed
+        speed: Math.random() * 0.3 + 0.2,
       });
     }
     setAsteroids(tempAsteroids);
@@ -193,11 +207,11 @@ const Aisteroids = () => {
   useEffect(() => {
     const canvas = canvasRef.current;
     if (canvas) {
-      canvas.width = window.innerWidth;
-      canvas.height = window.innerHeight;
+      canvas.width = windowSize.width;
+      canvas.height = windowSize.height;
     }
     requestAnimationFrame(gameLoop);
-  }, [ship, asteroids, bullets]);
+  }, [ship, asteroids, bullets, windowSize]);
 
   return (
     <div className="flex items-center justify-center w-screen h-screen bg-black">
