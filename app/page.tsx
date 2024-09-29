@@ -9,6 +9,7 @@ const games = [
   { slug: 'code-fighter', name: 'Code Fighter' },
   { slug: 'code-break', name: 'Code Break' },
   { slug: 'code-lemmings', name: 'Code Lemmings' },
+  { slug: 'grand-theft-aito', name: 'Grand Theft Aito' },
 ];
 
 export default function Home() {
