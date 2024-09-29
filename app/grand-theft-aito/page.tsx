@@ -229,7 +229,7 @@ export default function Page() {
       </Link>
       <Link href="https://chatgpt.com/share/66f9957a-def4-8002-b77b-0f165e0b5fa3" legacyBehavior>
         <a className="absolute top-4 right-32 z-50 text-white bg-gray-700 px-4 py-2 rounded-md">
-          o1 chat history
+          ChatGPT history
         </a>
       </Link>
       <Link href="https://github.com/gaborcselle/o1-games" legacyBehavior>
